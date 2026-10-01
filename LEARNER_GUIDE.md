@@ -221,3 +221,27 @@ If you remember only this, you have enough to start:
 **Work:** [33 Acme missions](APPRENTICESHIP_MAP.md)
 
 **Prove:** [Evidence Portfolio](EVIDENCE_PORTFOLIO.md)
+
+
+## 7. What will I get from completing this?
+
+If you actually do the experiments and missions — rather than just reading them — you finish with a practical engineering portfolio showing that you can:
+
+- reason from **system mechanisms**, not tool names;
+- diagnose failures from evidence instead of guessing;
+- design data, ML, LLM and AI systems with explicit correctness boundaries;
+- work safely with AI agents by specifying tasks, controlling permissions and verifying output;
+- make production decisions involving reliability, security, cost, recovery and trade-offs;
+- explain and defend your decisions to another engineer or architect.
+
+The goal is not “55 notebooks completed.” The goal is **evidence that you can investigate, build, break, verify and defend real engineering decisions.**
+
+## 8. How to use the solutions
+
+Every learner notebook and Acme mission ends with a **Check your work** link. Use it only after your attempt.
+
+**Recommended loop:**
+
+`Attempt → Test → Write evidence → Check reference solution → Compare reasoning → Revise`
+
+Reference solutions live in [`solutions/`](solutions/). They are separate from the learner path so the exercises remain spoiler-free. A different answer can still be correct when it is supported by evidence and respects the constraints.

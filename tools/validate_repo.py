@@ -146,7 +146,18 @@ for name in ['portfolio_template/README.md','portfolio_template/evidence_record.
 for name in ['01_requirements','02_architecture','03_data_contracts','04_experiments','05_incidents','06_agent_work','07_decisions','08_evals','09_production_defense']:
     if not (ROOT/'portfolio_template'/name).is_dir(): fail(f'portfolio template directory missing: {name}')
 
-# 11. Required baseline documents.
+# 11. Learner exercise/reference solution coverage.
+solutions = ROOT / "solutions"
+if not (solutions / "README.md").exists():
+    fail("solutions/README.md is missing")
+for n in range(55):
+    if not (solutions / "notebooks" / f"{n:02d}.md").exists():
+        fail(f"missing notebook reference solution: {n:02d}")
+for sid in range(1,34):
+    if not (solutions / "scenarios" / f"S{sid:02d}.md").exists():
+        fail(f"missing scenario reference solution: S{sid:02d}")
+
+# 12. Required baseline documents.
 for name in [
     "LEARNER_GUIDE.md",
     "docs/maintainer/SKETCH_NOTE_STANDARD.md",

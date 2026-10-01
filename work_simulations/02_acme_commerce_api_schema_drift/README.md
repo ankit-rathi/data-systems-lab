@@ -8,6 +8,15 @@
 
 Inspect the payload contract, identify the failure boundary, design a backward-compatible normalization step, and add tests.
 
+
+## Your task
+
+1. **Understand the situation:** read the ticket and inspect the evidence.
+2. **Find the cause:** write at least two hypotheses and test them.
+3. **Make the smallest safe change:** preserve the business constraint and add a regression check.
+4. **Prove it:** record before/after evidence and the production decision.
+
+**Do not start by guessing the fix.** Your job is to explain the mechanism with evidence.
 ## Learner rule
 
 Do not jump from the ticket to the fix. Inspect the evidence, write hypotheses, test them, then make the smallest defensible change.
@@ -32,6 +41,10 @@ This scenario is intentionally deterministic and educational. It is not a produc
 - **11 — 11_api_parquet_duckdb** → [`03_reliable_data_engineering/11_api_parquet_duckdb.ipynb`](https://github.com/ankit-rathi/data-systems-lab/blob/main/03_reliable_data_engineering/11_api_parquet_duckdb.ipynb)
 - **15 — 15_data_contracts** → [`04_quality_observability_orchestration/15_data_contracts.ipynb`](https://github.com/ankit-rathi/data-systems-lab/blob/main/04_quality_observability_orchestration/15_data_contracts.ipynb)
 
-**Learner rule:** use the notebooks to understand the mechanism and run the experiments, then enter this ticket independently. Do not treat the notebook output as the scenario diagnosis.
+**Learner rule:** finish the preparation notebooks first, then solve this ticket without using their outputs as the diagnosis.
 
 **Evidence handoff:** carry forward your prediction, relevant measurements, failure reproduction and verification idea; the scenario should add ambiguity, business constraints and a production decision.
+
+---
+
+**Check your work:** [Open the reference solution](../../solutions/scenarios/S02.md) — only after you have completed the mission and recorded your evidence.

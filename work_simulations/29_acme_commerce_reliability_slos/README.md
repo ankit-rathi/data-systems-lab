@@ -10,6 +10,15 @@ Checkout support depends on a service that occasionally fails. Product wants few
 
 Translate the user-facing expectation into an SLO, calculate the error budget, reconstruct recent consumption, and recommend an operating policy for releases and recovery.
 
+
+## Your task
+
+1. **Understand the situation:** read the ticket and inspect the evidence.
+2. **Find the cause:** write at least two hypotheses and test them.
+3. **Make the smallest safe change:** preserve the business constraint and add a regression check.
+4. **Prove it:** record before/after evidence and the production decision.
+
+**Do not start by guessing the fix.** Your job is to explain the mechanism with evidence.
 ## What makes this situation real
 
 - Reliability is a product promise, not only an infrastructure metric.
@@ -35,6 +44,10 @@ This scenario may be solved with an implementation or investigation agent. Treat
 **Prepare with these notebooks:**
 - **50 — Reliability, SLOs & Failure Budgets** → [`09_production_architecture_capstones/50_reliability_slos_failure_budgets.ipynb`](https://github.com/ankit-rathi/data-systems-lab/blob/main/09_production_architecture_capstones/50_reliability_slos_failure_budgets.ipynb)
 
-**Learner rule:** use the notebooks to understand the mechanism and run the experiments, then enter this ticket independently. Do not treat the notebook output as the scenario diagnosis.
+**Learner rule:** finish the preparation notebooks first, then solve this ticket without using their outputs as the diagnosis.
 
 **Evidence handoff:** carry forward your prediction, relevant measurements, failure reproduction and verification idea; the scenario should add ambiguity, business constraints and a production decision.
+
+---
+
+**Check your work:** [Open the reference solution](../../solutions/scenarios/S29.md) — only after you have completed the mission and recorded your evidence.

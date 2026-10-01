@@ -155,6 +155,37 @@ for md in sorted(ROOT.rglob("*.md")):
 check_notebooks()
 check_site()
 check_apprenticeship_map()
+
+# Every learner exercise has a separate reference solution, and every notebook
+# ends with a deliberate "Check your work" link so the answer key never becomes
+# part of the learning path accidentally.
+solution_root = ROOT / "solutions"
+if not (solution_root / "README.md").exists():
+    fail("solutions/README.md is missing")
+for n in range(55):
+    nb_paths = list(ROOT.glob(f"**/{n:02d}_*.ipynb"))
+    nb_paths = [p for p in nb_paths if "99_templates" not in p.parts]
+    if not nb_paths:
+        fail(f"solution validation: notebook {n:02d} is missing")
+        continue
+    sol = solution_root / "notebooks" / f"{n:02d}.md"
+    if not sol.exists():
+        fail(f"solution validation: missing notebook solution: {sol.relative_to(ROOT)}")
+    else:
+        nb = json.loads(nb_paths[0].read_text(encoding="utf-8"))
+        last = "".join(nb.get("cells", [])[-1].get("source", [])) if nb.get("cells") else ""
+        if "Check your work" not in last or f"solutions/notebooks/{n:02d}.md" not in last:
+            fail(f"solution validation: notebook {n:02d} must end with its solution link")
+for sid in range(1,34):
+    sol = solution_root / "scenarios" / f"S{sid:02d}.md"
+    if not sol.exists():
+        fail(f"solution validation: missing scenario solution: {sol.relative_to(ROOT)}")
+    dirs=[p for p in (ROOT/"work_simulations").iterdir() if p.is_dir() and p.name[:2].isdigit() and int(p.name[:2])==sid]
+    if dirs:
+        readme=(dirs[0]/"README.md").read_text(encoding="utf-8")
+        if "## Your task" not in readme or f"solutions/scenarios/S{sid:02d}.md" not in readme:
+            fail(f"solution validation: scenario S{sid:02d} learner instructions/solution link missing")
+
 check_generated_artifacts()
 
 if errors:

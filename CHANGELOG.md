@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.5.12 — Learner instructions + reference solutions
+
+- Rewrote notebook and Acme-mission instructions around a simple learner contract: **Goal → Do this → Save → Done when**.
+- Added a final **Check your work** link to all 55 learner notebooks.
+- Added a final **Check your work** link to all 33 Acme scenario READMEs.
+- Added `solutions/` with 55 notebook reference solutions and 33 scenario reference solutions, deliberately separated from the learner path.
+- Added validation that every notebook/scenario has a matching reference solution and learner-facing link.
+- Added a prominent homepage **The payoff** section explaining the practical engineering capabilities learners should gain.
+- Added the same outcome framing to `README.md` and `LEARNER_GUIDE.md`.
+- Preserved the existing curriculum, Agent Workbench, portfolio, scenarios and release gates.
+
+
 ## v1.5.11 — Learner UX consolidation
 
 - Reworked the learner front door around one simple journey: notebook → break → diagnose → Acme mission → verify → decide → evidence.

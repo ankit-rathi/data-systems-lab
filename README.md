@@ -6,32 +6,27 @@
 
 ## In one minute
 
-This repository is a **hands-on engineering apprenticeship**, not a collection of tool tutorials.
+This is a **hands-on Data & AI engineering apprenticeship**. You learn a system mechanism, deliberately break it, diagnose what happened, then use the same idea in a realistic **Acme Commerce** engineering mission.
 
-You will:
+### What you get at the end
 
-1. **Learn** a system mechanism in a notebook.
-2. **Experiment** with it and deliberately break it.
-3. **Work** an Acme Commerce engineering mission using the same idea.
-4. **Verify** your diagnosis and proposed change.
-5. **Record** evidence and a production decision.
-6. **Defend** the result as an engineer.
+If you do the work — not just read it — you build evidence that you can:
 
-There are **55 learner notebooks: 00–54** and **33 Acme Commerce missions: S01–S33**, connected into one learning system.
+- understand how data, ML, LLM, AI and distributed systems actually behave;
+- diagnose failures from evidence rather than guess at fixes;
+- design for correctness, reliability, security, cost and recovery;
+- work safely with AI agents: **specify → delegate → inspect → verify**;
+- defend architecture and production decisions like an engineer.
 
-### The only workflow you need to remember
+**Your output is not a pile of completed notebooks. It is an evidence-backed engineering portfolio.**
 
-```text
-Notebook → Break → Diagnose → Acme mission → Verify → Decide → Evidence
-```
+### The whole course in one line
 
-If an AI agent participates:
+`Notebook → Break → Diagnose → Acme mission → Verify → Decide → Evidence`
 
-```text
-Specify → Delegate → Inspect → Verify
-```
+There are **55 learner notebooks (00–54)** and **33 Acme missions**, connected into one progression.
 
-**You own the engineering judgment.**
+**Current notebook baseline: 55 learner notebooks: 00–54.** When a notebook or mission ends, its **Check your work** link takes you to a separate reference solution — after you have attempted it.
 
 ## Where should I start?
 

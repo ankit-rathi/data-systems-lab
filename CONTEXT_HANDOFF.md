@@ -1,4 +1,4 @@
-# Context Handoff — v1.5.3 Phase 1
+# Context Handoff — v1.5.12 Learner Instructions + Reference Solutions
 
 ## Current state
 
@@ -128,3 +128,31 @@ The repository now has a deliberately simple learner front door. `README.md` giv
 Overlapping learner documents were consolidated into `LEARNER_GUIDE.md`. Maintainer-only documents were moved under `docs/maintainer/`. The redundant `APPRENTICESHIP_NOTEBOOK_MAP.md` was removed; the canonical learner cross-map is `APPRENTICESHIP_MAP.md`, while `APPRENTICESHIP_NOTEBOOK_MAP.csv` remains the machine-readable mapping used by validation and site generation.
 
 No curriculum content was removed: the release still contains 55 learner notebooks (00–54), 33 Acme Commerce scenarios (S01–S33), the Agent Workbench, portfolio template, validation suite, scenario tests and release tooling.
+
+## v1.5.12 — Learner instructions + reference solutions
+
+This release adds the next learner-UX layer after the v1.5.11 documentation consolidation. The repository now assumes that a learner should be able to open any notebook or Acme scenario and understand the ask without reverse-engineering the course design.
+
+### Learner instruction contract
+Every learner exercise is framed as:
+
+1. **Goal** — what outcome the exercise is testing.
+2. **Do this** — the concrete action and constraints.
+3. **Save** — the evidence the learner should keep.
+4. **Done when** — the standard for a defensible result.
+
+Every notebook and scenario ends with a **Check your work** link.
+
+### Reference solutions
+`solutions/` is deliberately outside the main learning path:
+- `solutions/notebooks/00.md` … `54.md` — reference approaches for every learner notebook.
+- `solutions/scenarios/S01.md` … `S33.md` — reference diagnoses/solution patterns for every Acme mission.
+- `solutions/README.md` — explains the attempt → test → evidence → compare workflow.
+
+These are reference answers, not the only acceptable implementation. Learners can differ when their reasoning is correct, evidenced and consistent with the constraints.
+
+### Outcome framing
+The README, GitHub Pages homepage and Learner Guide now explicitly state the end outcome: learners should finish able to diagnose systems from evidence, engineer production boundaries, work safely with AI agents, and defend architecture/production decisions with an evidence-backed portfolio.
+
+### Validation added
+`tools/validate_links.py` and `tools/validate_repo.py` now verify the 55 notebook solutions, 33 scenario solutions and learner-facing links.

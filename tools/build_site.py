@@ -140,6 +140,18 @@ permalink: /
   </div>
 </section>
 
+<section class="lab-section" id="outcomes" aria-labelledby="outcomes-title">
+  <div class="lab-section-label">THE PAYOFF</div>
+  <h2 id="outcomes-title">What you should be able to do when you finish.</h2>
+  <div class="lab-row-list">
+    <div class="lab-row"><span class="lab-row-number">01</span><span class="lab-row-copy"><strong>Diagnose systems from evidence</strong><small>Move from symptom → mechanism → measurement → verified explanation.</small></span></div>
+    <div class="lab-row"><span class="lab-row-number">02</span><span class="lab-row-copy"><strong>Engineer production boundaries</strong><small>Reason about correctness, reliability, security, cost, recovery and trade-offs.</small></span></div>
+    <div class="lab-row"><span class="lab-row-number">03</span><span class="lab-row-copy"><strong>Work safely with AI agents</strong><small>Specify the work, control authority, inspect output and verify independently.</small></span></div>
+    <div class="lab-row"><span class="lab-row-number">04</span><span class="lab-row-copy"><strong>Defend your decisions</strong><small>Leave with evidence you can explain to another engineer or architect.</small></span></div>
+  </div>
+  <p class="lab-copy"><strong>The goal is not notebook completion.</strong> It is evidence that you can investigate, build, break, verify and defend real engineering decisions.</p>
+</section>
+
 <section class="lab-section lab-start" id="start" aria-labelledby="start-title">
   <div class="lab-section-label">IN 30 SECONDS</div>
   <h2 id="start-title">One course. Three things to remember.</h2>
@@ -149,7 +161,7 @@ permalink: /
     <div class="lab-row"><span class="lab-row-number">03</span><span class="lab-row-copy"><strong>One evidence trail</strong><small>Measurements, failures, verification and decisions become your engineering portfolio.</small></span></div>
   </div>
   <p class="lab-copy"><strong>The workflow:</strong> Notebook → Break → Diagnose → Acme mission → Verify → Decide → Evidence.</p>
-  <p class="lab-note">You do not need to understand the repository before starting. <a href="https://github.com/ankit-rathi/data-systems-lab/blob/main/LEARNER_GUIDE.md" target="_blank" rel="noopener">Read the Learner Guide</a> if you want the full navigation model.</p>
+  <p class="lab-note">You do not need to understand the repository before starting. <a href="https://github.com/ankit-rathi/data-systems-lab/blob/main/LEARNER_GUIDE.md" target="_blank" rel="noopener">Read the Learner Guide</a> if you want the full navigation model. Every exercise also has a separate <a href="https://github.com/ankit-rathi/data-systems-lab/tree/main/solutions" target="_blank" rel="noopener">reference solution</a> for checking your work after you attempt it.</p>
 </section>
 
 <section class="lab-section" id="routes" aria-labelledby="routes-title">

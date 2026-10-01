@@ -10,6 +10,15 @@ Checkout analytics and AI support are both growing, but they have different late
 
 Your job is not to draw a diagram first. Convert the business request into measurable requirements, identify incompatible assumptions, compare at least two architecture options, and record which evidence would change your decision.
 
+
+## Your task
+
+1. **Understand the situation:** read the ticket and inspect the evidence.
+2. **Find the cause:** write at least two hypotheses and test them.
+3. **Make the smallest safe change:** preserve the business constraint and add a regression check.
+4. **Prove it:** record before/after evidence and the production decision.
+
+**Do not start by guessing the fix.** Your job is to explain the mechanism with evidence.
 ## What makes this situation real
 
 - Two workloads share data but have different operating characteristics.
@@ -35,6 +44,10 @@ This scenario may be solved with an implementation or investigation agent. Treat
 **Prepare with these notebooks:**
 - **49 — Production Architecture Requirements** → [`09_production_architecture_capstones/49_production_architecture_requirements.ipynb`](https://github.com/ankit-rathi/data-systems-lab/blob/main/09_production_architecture_capstones/49_production_architecture_requirements.ipynb)
 
-**Learner rule:** use the notebooks to understand the mechanism and run the experiments, then enter this ticket independently. Do not treat the notebook output as the scenario diagnosis.
+**Learner rule:** finish the preparation notebooks first, then solve this ticket without using their outputs as the diagnosis.
 
 **Evidence handoff:** carry forward your prediction, relevant measurements, failure reproduction and verification idea; the scenario should add ambiguity, business constraints and a production decision.
+
+---
+
+**Check your work:** [Open the reference solution](../../solutions/scenarios/S28.md) — only after you have completed the mission and recorded your evidence.

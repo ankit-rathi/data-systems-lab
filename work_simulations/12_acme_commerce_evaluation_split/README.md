@@ -1,5 +1,14 @@
 # 1145 — DATA-1145 — Model review cannot reproduce the reported test score
 
+## Your task
+
+1. **Understand the situation:** read the ticket and inspect the evidence.
+2. **Find the cause:** write at least two hypotheses and test them.
+3. **Make the smallest safe change:** preserve the business constraint and add a regression check.
+4. **Prove it:** record before/after evidence and the production decision.
+
+**Do not start by guessing the fix.** The ticket gives you the situation, not the diagnosis.
+
 This is the Acme Commerce apprenticeship scenario paired with **Notebook 33**.
 
 ## Work like an engineer
@@ -23,6 +32,10 @@ This is a teaching simulation, not a real production ML system.
 **Prepare with these notebooks:**
 - **33 — Train / Validation / Test** → [`06_ml_engineering/33_train_validation_test.ipynb`](https://github.com/ankit-rathi/data-systems-lab/blob/main/06_ml_engineering/33_train_validation_test.ipynb)
 
-**Learner rule:** use the notebooks to understand the mechanism and run the experiments, then enter this ticket independently. Do not treat the notebook output as the scenario diagnosis.
+**Learner rule:** finish the preparation notebooks first, then solve this ticket without using their outputs as the diagnosis.
 
 **Evidence handoff:** carry forward your prediction, relevant measurements, failure reproduction and verification idea; the scenario should add ambiguity, business constraints and a production decision.
+
+---
+
+**Check your work:** [Open the reference solution](../../solutions/scenarios/S12.md) — only after you have completed the mission and recorded your evidence.

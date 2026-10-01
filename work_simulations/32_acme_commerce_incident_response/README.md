@@ -10,6 +10,15 @@ A new AI release increased error rate and duplicate support actions. Some failur
 
 Build a timeline, identify the blast radius, choose containment, test rollback, and verify both technical recovery and recovery of business-side effects.
 
+
+## Your task
+
+1. **Understand the situation:** read the ticket and inspect the evidence.
+2. **Find the cause:** write at least two hypotheses and test them.
+3. **Make the smallest safe change:** preserve the business constraint and add a regression check.
+4. **Prove it:** record before/after evidence and the production decision.
+
+**Do not start by guessing the fix.** Your job is to explain the mechanism with evidence.
 ## What makes this situation real
 
 - The first alert is not necessarily the first causal event.
@@ -35,6 +44,10 @@ This scenario may be solved with an implementation or investigation agent. Treat
 **Prepare with these notebooks:**
 - **53 — Incident Response, Rollback & Recovery** → [`09_production_architecture_capstones/53_incident_response_rollback_recovery.ipynb`](https://github.com/ankit-rathi/data-systems-lab/blob/main/09_production_architecture_capstones/53_incident_response_rollback_recovery.ipynb)
 
-**Learner rule:** use the notebooks to understand the mechanism and run the experiments, then enter this ticket independently. Do not treat the notebook output as the scenario diagnosis.
+**Learner rule:** finish the preparation notebooks first, then solve this ticket without using their outputs as the diagnosis.
 
 **Evidence handoff:** carry forward your prediction, relevant measurements, failure reproduction and verification idea; the scenario should add ambiguity, business constraints and a production decision.
+
+---
+
+**Check your work:** [Open the reference solution](../../solutions/scenarios/S32.md) — only after you have completed the mission and recorded your evidence.
