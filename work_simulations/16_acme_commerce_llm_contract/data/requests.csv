@@ -1,0 +1,4 @@
+request_id,input_tokens,output_tokens,latency_ms
+R1,40,20,180
+R2,80,30,260
+R3,20,12,140

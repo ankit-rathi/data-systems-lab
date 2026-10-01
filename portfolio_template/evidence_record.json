@@ -1,0 +1,19 @@
+{
+  "id": "ACME-SXX-YYYY",
+  "source_notebooks": ["00"],
+  "scenario": "SXX",
+  "capability": "CXX",
+  "mastery_target": "L0-L8",
+  "problem": "",
+  "prediction_or_hypotheses": [],
+  "evidence": [],
+  "change": "",
+  "verification": [],
+  "failure_discovered": "",
+  "decision": "ship|revise|reject|escalate",
+  "production_follow_up": "",
+  "agent_involved": false,
+  "agent_work_contract": null,
+  "human_review": null,
+  "created_at": "YYYY-MM-DD"
+}

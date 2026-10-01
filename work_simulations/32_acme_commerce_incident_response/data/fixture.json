@@ -1,0 +1,5 @@
+{
+  "ticket": "DATA-1346: a new AI release increased error rate and duplicate support actions. Contain the incident and prepare rollback evidence.",
+  "defect": "The release has a known-good predecessor, but the team has not verified that rollback also restores safe downstream side effects.",
+  "service": "acme-commerce"
+}

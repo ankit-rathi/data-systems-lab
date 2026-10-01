@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ page.title }} · Ankit Rathi</title>
+  <meta name="description" content="{{ page.description | default: site.description }}" />
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+  <link rel="stylesheet" href="{{ '/assets/css/lab.css' | relative_url }}" />
+</head>
+<body>
+<div id="wrapper" class="fade-in">
+  <header id="header"><a href="https://ankit-rathi.github.io/" class="logo">Ankit Rathi</a></header>
+  <nav id="nav" aria-label="Primary navigation">
+    <ul class="links">
+      <li><a href="https://ankit-rathi.github.io/">Home</a></li>
+      <li class="active"><a href="{{ '/' | relative_url }}">Lab</a></li>
+      <li><a href="{{ '/#curriculum' | relative_url }}">Curriculum</a></li>
+      <li><a href="{{ '/#apprenticeship' | relative_url }}">Apprenticeship</a></li>
+      <li><a href="https://github.com/ankit-rathi/data-systems-lab" target="_blank" rel="noopener">GitHub ↗</a></li>
+    </ul>
+  </nav>
+  <main id="main" class="lab-main">{{ content }}
+    <footer class="lab-footer">
+      <div class="footer-minimal"><span>© {{ site.time | date: '%Y' }} Ankit Rathi</span><span>Data · AI · Engineering</span></div>
+      <div class="lab-footer-link"><a class="text-link" href="https://ankit-rathi.github.io/">← Back to Ankit Rathi</a></div>
+    </footer>
+  </main>
+</div>
+</body>
+</html>

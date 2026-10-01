@@ -1,0 +1,56 @@
+path,title,phase,level,status,apprenticeship,capability_id,workstream,primary_roles,reality_bridge
+00_foundations/00_environment_colab.ipynb,Environment & Colab,Foundations,L1/L2,Complete,FOUNDATION,C01,Foundation,Data Engineer|Analytics Engineer,
+00_foundations/01_python_data_structures.ipynb,Python Data Structures for Data Engineers,Foundations,L1/L2,Complete,FOUNDATION,C01,Foundation,Data Engineer|Analytics Engineer,
+01_data_fundamentals/02_files_json_apis.ipynb,"Files, JSON and APIs",Data Fundamentals,L2,Complete,S02,C01,Foundation,Data Engineer|Analytics Engineer,
+01_data_fundamentals/03_csv_json_parquet.ipynb,CSV vs JSON vs Parquet,Data Fundamentals,L2,Complete,S02,C01,Foundation,Data Engineer|Analytics Engineer,
+01_data_fundamentals/04_arrow_columnar_memory.ipynb,Apache Arrow and Columnar Memory,Data Fundamentals,L2,Complete,S02,C01,Foundation,Data Engineer|Analytics Engineer,
+02_sql_databases/05_sql_fundamentals.ipynb,SQL Fundamentals,SQL & Databases,L2,Complete,S01,C02,Revenue Data Platform,Data Engineer|Analytics Engineer|Platform Engineer,
+02_sql_databases/06_sql_joins_aggregations.ipynb,SQL Joins and Aggregations,SQL & Databases,L2,Complete,S01,C02,Revenue Data Platform,Data Engineer|Analytics Engineer|Platform Engineer,
+02_sql_databases/07_sql_window_functions.ipynb,SQL Window Functions,SQL & Databases,L2,Complete,S01,C02,Revenue Data Platform,Data Engineer|Analytics Engineer|Platform Engineer,
+02_sql_databases/08_query_plans_indexes.ipynb,Query Plans & Indexes,SQL & Databases,L2,Complete,S07,C02,Revenue Data Platform,Data Engineer|Analytics Engineer|Platform Engineer,
+02_sql_databases/09_transactions_concurrency.ipynb,Transactions & Concurrency,SQL & Databases,L2,Complete,S07,C02,Revenue Data Platform,Data Engineer|Analytics Engineer|Platform Engineer,
+02_sql_databases/10_data_modeling.ipynb,Data Modeling,SQL & Databases,L2,Complete,S07,C02,Revenue Data Platform,Data Engineer|Analytics Engineer|Platform Engineer,
+03_reliable_data_engineering/11_api_parquet_duckdb.ipynb,11_api_parquet_duckdb,Reliable Data Engineering,L2,Complete,S02,C03,Revenue Data Platform,Data Engineer|Analytics Engineer|Platform Engineer,
+03_reliable_data_engineering/12_data_quality.ipynb,12_data_quality,Reliable Data Engineering,L2,Complete,S03,C03,Revenue Data Platform,Data Engineer|Analytics Engineer|Platform Engineer,
+03_reliable_data_engineering/13_incremental_idempotent.ipynb,13_incremental_idempotent,Reliable Data Engineering,L2,Complete,"S04,S06",C03,Revenue Data Platform,Data Engineer|Analytics Engineer|Platform Engineer,
+03_reliable_data_engineering/14_mini_analytical_platform.ipynb,14_mini_analytical_platform,Reliable Data Engineering,L2,Complete,"S03,S04",C03,Revenue Data Platform,Data Engineer|Analytics Engineer|Platform Engineer,
+04_quality_observability_orchestration/15_data_contracts.ipynb,15_data_contracts,Quality & Observability,L2,Complete,"S02,S03",C03,Revenue Data Platform,Data Engineer|Analytics Engineer|Platform Engineer,
+04_quality_observability_orchestration/16_metadata_lineage.ipynb,16_metadata_lineage,Quality & Observability,L2,Complete,S05,C04,Revenue Data Platform,Data Engineer|Analytics Engineer|Platform Engineer,
+04_quality_observability_orchestration/17_orchestration_dags.ipynb,17_orchestration_dags,Quality & Observability,L2,Complete,"S04,S05,S06",C04,Revenue Data Platform,Data Engineer|Analytics Engineer|Platform Engineer,
+04_quality_observability_orchestration/18_retries_backfills.ipynb,18_retries_backfills,Quality & Observability,L2,Complete,"S04,S06",C04,Revenue Data Platform,Data Engineer|Analytics Engineer|Platform Engineer,
+05_storage_distributed_systems/19_btree_lsm.ipynb,19_btree_lsm,Storage & Distributed Systems,L2,Complete,S08,C05,Distributed Data Platform,Data Engineer|Platform Engineer|Architect,
+05_storage_distributed_systems/20_wal_recovery.ipynb,20_wal_recovery,Storage & Distributed Systems,L2,Complete,S08,C05,Distributed Data Platform,Data Engineer|Platform Engineer|Architect,
+05_storage_distributed_systems/21_mvcc_isolation.ipynb,21_mvcc_isolation,Storage & Distributed Systems,L2,Complete,S08,C05,Distributed Data Platform,Data Engineer|Platform Engineer|Architect,
+05_storage_distributed_systems/22_replication_consistency.ipynb,22_replication_consistency,Storage & Distributed Systems,L2,Complete,S08,C05,Distributed Data Platform,Data Engineer|Platform Engineer|Architect,
+05_storage_distributed_systems/23_partitioning_hashing.ipynb,23_partitioning_hashing,Storage & Distributed Systems,L2,Complete,S08,C05,Distributed Data Platform,Data Engineer|Platform Engineer|Architect,
+05_storage_distributed_systems/24_raft_consensus.ipynb,24_raft_consensus,Storage & Distributed Systems,L2,Complete,S08,C05,Distributed Data Platform,Data Engineer|Platform Engineer|Architect,
+06_ml_engineering/31_ml_problem_framing.ipynb,ML Problem Framing,ML Engineering,L1/L2,Complete,S10,C07,ML Platform,ML Engineer|Data Engineer,
+06_ml_engineering/32_features_leakage.ipynb,Features & Leakage,ML Engineering,L2,Complete,"S10,S11",C07,ML Platform,ML Engineer|Data Engineer,
+06_ml_engineering/33_train_validation_test.ipynb,Train / Validation / Test,ML Engineering,L2,Complete,S12,C07,ML Platform,ML Engineer|Data Engineer,
+06_ml_engineering/34_model_serving_freshness.ipynb,Model Serving & Freshness,ML Engineering,L2/L3,Complete,"S11,S13",C07,ML Platform,ML Engineer|Data Engineer,
+06_ml_engineering/35_model_drift_monitoring.ipynb,Model Drift & Monitoring,ML Engineering,L2/L3,Complete,S14,C07,ML Platform,ML Engineer|Data Engineer,
+06_ml_engineering/36_rollback_reproducibility_registry.ipynb,"Rollback, Reproducibility & Model Registry",ML Engineering,L3,Complete,S15,C07,ML Platform,ML Engineer|Data Engineer,
+06_streaming_lakehouse/25_spark_execution_lazy.ipynb,Spark Execution & Lazy Evaluation,"Big Data, Streaming & Lakehouse",L2,Complete,S09,C06,Distributed Data Platform,Data Engineer|Platform Engineer|Architect,Apache Spark / distributed execution
+06_streaming_lakehouse/26_shuffle_partitioning_skew.ipynb,"Shuffle, Partitioning & Skew","Big Data, Streaming & Lakehouse",L2,Complete,S09,C06,Distributed Data Platform,Data Engineer|Platform Engineer|Architect,Spark shuffle and partitioning
+06_streaming_lakehouse/27_kafka_partitioned_logs.ipynb,Kafka Fundamentals & Partitioned Logs,"Big Data, Streaming & Lakehouse",L2,Complete,S09,C06,Distributed Data Platform,Data Engineer|Platform Engineer|Architect,Kafka-compatible event logs
+06_streaming_lakehouse/28_event_time_processing_time.ipynb,"Event Time, Processing Time & Windows","Big Data, Streaming & Lakehouse",L2,Complete,S09,C06,Distributed Data Platform,Data Engineer|Platform Engineer|Architect,Streaming event-time engines
+06_streaming_lakehouse/29_delivery_semantics_offsets.ipynb,"Delivery Semantics, Replay & Offsets","Big Data, Streaming & Lakehouse",L2,Complete,S09,C06,Distributed Data Platform,Data Engineer|Platform Engineer|Architect,Kafka delivery and offset semantics
+06_streaming_lakehouse/30_lakehouse_compaction_schema.ipynb,"Lakehouse Tables, Compaction & Schema Evolution","Big Data, Streaming & Lakehouse",L2,Complete,S09,C06,Distributed Data Platform,Data Engineer|Platform Engineer|Architect,Lakehouse tables and compaction
+07_llm_engineering/37_llm_systems_foundations.ipynb,LLM Systems Foundations,LLM Engineering,L1/L2,Complete,S16,C08,AI Support Platform,AI Engineer|ML Engineer,Provider-neutral LLM runtime
+07_llm_engineering/38_structured_outputs_validation.ipynb,Structured Outputs & Validation,LLM Engineering,L2,Complete,S17,C08,AI Support Platform,AI Engineer|ML Engineer,Structured-output model APIs
+07_llm_engineering/39_embeddings_similarity.ipynb,Embeddings & Similarity,LLM Engineering,L2,Complete,S18,C08,AI Support Platform,AI Engineer|ML Engineer,Embedding and vector retrieval systems
+07_llm_engineering/40_retrieval_rag.ipynb,Retrieval & RAG,LLM Engineering,L2,Complete,S19,C08,AI Support Platform,AI Engineer|ML Engineer,Retrieval-augmented generation
+07_llm_engineering/41_llm_evaluation_groundedness.ipynb,LLM Evaluation & Groundedness,LLM Engineering,L2/L3,Complete,S20,C08,AI Support Platform,AI Engineer|ML Engineer,LLM evaluation and groundedness
+07_llm_engineering/42_tool_calling_agent_loops.ipynb,Tool Calling & Agent Loops,LLM Engineering,L2/L3,Complete,S21,C08,AI Support Platform,AI Engineer|ML Engineer,Tool-calling agent runtimes
+08_ai_data_systems/43_ai-data-contracts.ipynb,AI Data Contracts,AI Data Systems,L2/L3,Complete,S22,C09,Agentic Data Platform,AI Engineer|Data Engineer|Platform Engineer,
+08_ai_data_systems/44_ai-assisted-data-quality.ipynb,AI-Assisted Data Quality,AI Data Systems,L2/L3,Complete,S23,C09,Agentic Data Platform,AI Engineer|Data Engineer|Platform Engineer,
+08_ai_data_systems/45_confidence-and-escalation.ipynb,Confidence & Escalation,AI Data Systems,L2/L3,Complete,S24,C09,Agentic Data Platform,AI Engineer|Data Engineer|Platform Engineer,
+08_ai_data_systems/46_human-in-the-loop-workflows.ipynb,Human-in-the-Loop Workflows,AI Data Systems,L2/L3,Complete,S25,C09,Agentic Data Platform,AI Engineer|Data Engineer|Platform Engineer,
+08_ai_data_systems/47_agentic-data-operations.ipynb,Agentic Data Operations,AI Data Systems,L2/L3,Complete,S26,C09,Agentic Data Platform,AI Engineer|Data Engineer|Platform Engineer,
+08_ai_data_systems/48_learning-loops-and-ai-operations.ipynb,Learning Loops & AI Operations,AI Data Systems,L2/L3,Complete,S27,C09,Agentic Data Platform,AI Engineer|Data Engineer|Platform Engineer,
+09_production_architecture_capstones/49_production_architecture_requirements.ipynb,Production Architecture Requirements,Production Architecture & Capstones,L3,Complete,S28,C10,Production Engineering,Platform Engineer|AI Engineer|Architect|Reviewer,
+09_production_architecture_capstones/50_reliability_slos_failure_budgets.ipynb,"Reliability, SLOs & Failure Budgets",Production Architecture & Capstones,L3,Complete,S29,C10,Production Engineering,Platform Engineer|AI Engineer|Architect|Reviewer,
+09_production_architecture_capstones/51_security_governance_data_ai.ipynb,"Security, Governance & AI Boundaries",Production Architecture & Capstones,L3,Complete,S30,C11,Production Engineering,Platform Engineer|AI Engineer|Architect|Reviewer,
+09_production_architecture_capstones/52_cost_latency_capacity.ipynb,"Cost, Latency & Capacity Planning",Production Architecture & Capstones,L3,Complete,S31,C11,Production Engineering,Platform Engineer|AI Engineer|Architect|Reviewer,
+09_production_architecture_capstones/53_incident_response_rollback_recovery.ipynb,"Incident Response, Rollback & Recovery",Production Architecture & Capstones,L3/L4,Complete,S32,C11,Production Engineering,Platform Engineer|AI Engineer|Architect|Reviewer,
+09_production_architecture_capstones/54_capstone_architecture_review.ipynb,Capstone Architecture Review,Production Architecture & Capstones,L4,Complete,S33,C12,Production Engineering,Platform Engineer|AI Engineer|Architect|Reviewer,

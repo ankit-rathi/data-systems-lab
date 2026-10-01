@@ -1,0 +1,14 @@
+{
+  "default_level": 2,
+  "levels": {
+    "0": ["explain"],
+    "1": ["explain", "inspect"],
+    "2": ["explain", "inspect", "propose"],
+    "3": ["explain", "inspect", "propose", "sandbox_write"],
+    "4": ["explain", "inspect", "propose", "sandbox_write", "run_tests"],
+    "5": ["explain", "inspect", "propose", "sandbox_write", "run_tests", "create_pr"],
+    "6": ["explain", "inspect", "propose", "sandbox_write", "run_tests", "create_pr", "deploy_with_approval"],
+    "7": ["explain", "inspect", "propose", "sandbox_write", "run_tests", "create_pr", "deploy_with_approval", "bounded_production_action"]
+  },
+  "irreversible_tools_require_human_approval": true
+}

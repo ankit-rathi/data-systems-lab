@@ -1,0 +1,5 @@
+order_id,customer_id,created_at,status,amount
+O1001,C001,2026-09-29T09:00:00Z,completed,100
+O1002,C001,2026-09-29T10:00:00Z,completed,200
+O1003,C002,2026-09-29T11:00:00Z,completed,300
+O1004,C003,2026-09-29T12:00:00Z,completed,400

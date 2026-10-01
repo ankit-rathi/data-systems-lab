@@ -1,0 +1,4 @@
+response_id,action,confidence
+S1,review,0.72
+S2,,0.51
+S3,approve,0.91

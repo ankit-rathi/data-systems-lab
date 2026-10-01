@@ -1,0 +1,7 @@
+event_id,customer_id,event_time,processing_time,event_type,value
+E001,C001,100,101,order_created,120
+E002,C001,101,102,order_created,80
+E003,C001,99,105,order_created,50
+E004,C002,102,103,order_created,200
+E005,C003,103,104,order_created,70
+E006,C001,104,108,order_created,90

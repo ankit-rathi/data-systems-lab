@@ -1,0 +1,5 @@
+{
+  "ticket": "DATA-1302: checkout analytics and AI support are growing, and the team needs an architecture decision before the next release.",
+  "defect": "The proposed design mixes batch, interactive and continuous workloads without explicit service boundaries or measurable requirements.",
+  "service": "acme-commerce"
+}

@@ -1,0 +1,5 @@
+case_id,type,expected
+E1,refund,refund_policy
+E2,shipping,shipping_policy
+E3,payment,payment_policy
+E4,ambiguous,needs_review

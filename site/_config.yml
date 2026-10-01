@@ -1,0 +1,14 @@
+title: Data & AI Engineering Lab
+description: A Colab-first Data & AI Engineering apprenticeship by Ankit Rathi.
+baseurl: /data-systems-lab
+url: https://ankit-rathi.github.io
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+plugins:
+  - jekyll-sitemap
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

@@ -1,0 +1,4 @@
+case_id,query,expected_source
+C1,How long does shipping take?,shipping_policy
+C2,Can I get a refund?,refund_policy
+C3,How are card payments settled?,payment_policy

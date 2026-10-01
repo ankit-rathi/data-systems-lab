@@ -1,0 +1,34 @@
+scenario_id,ticket,workstream,primary_role,decision_mode,notebook_range
+S01,DATA-1042,Revenue Data Platform,Data Engineer,Investigate and correct,05-07
+S02,DATA-1051,Revenue Data Platform,Data Engineer,Contract and compatibility,02-04;11;15
+S03,DATA-1063,Revenue Data Platform,Data Engineer,Quality gate,12;14-15
+S04,DATA-1070,Revenue Data Platform,Data Engineer,Idempotency and recovery,13-14;17-18
+S05,DATA-1081,Revenue Data Platform,Data Engineer,Lineage and ownership,16-17
+S06,DATA-1094,Revenue Data Platform,Platform Engineer,Retry safety,13;17-18
+S07,DATA-1102,Distributed Data Platform,Data Engineer,Latency investigation,08-10
+S08,DATA-1110,Distributed Data Platform,Systems Engineer,Consistency trade-off,19-24
+S09,DATA-1120,Distributed Data Platform,Platform Engineer,Backlog and capacity,25-30
+S10,DATA-1131,ML Platform,ML Engineer,Leakage investigation,31-32
+S11,DATA-1138,ML Platform,ML Engineer,Freshness control,32;34
+S12,DATA-1145,ML Platform,ML Engineer,Evaluation reproducibility,33
+S13,DATA-1152,ML Platform,ML Engineer,Serving consistency,34
+S14,DATA-1160,ML Platform,ML Engineer,Drift response,35
+S15,DATA-1170,ML Platform,ML Engineer,Rollback decision,36
+S16,DATA-1181,AI Support Platform,AI Engineer,Latency and contract design,37
+S17,DATA-1190,AI Support Platform,AI Engineer,Structured-output reliability,38
+S18,DATA-1201,AI Support Platform,AI Engineer,Representation and retrieval,39
+S19,DATA-1210,AI Support Platform,AI Engineer,Groundedness investigation,40
+S20,DATA-1221,AI Support Platform,AI Engineer,Evaluation design,41
+S21,DATA-1232,AI Support Platform,AI Engineer,Tool authorization,42
+S22,DATA-1240,Agentic Data Platform,AI / Data Platform Engineer,Contract and evidence,43
+S23,DATA-1251,Agentic Data Platform,AI / Data Platform Engineer,AI-assisted quality,44
+S24,DATA-1262,Agentic Data Platform,AI Engineer,Confidence routing,45
+S25,DATA-1273,Agentic Data Platform,Platform Engineer,Human approval,46
+S26,DATA-1284,Agentic Data Platform,Platform Engineer,Bounded operations,47
+S27,DATA-1295,Agentic Data Platform,AI Platform Engineer,Learning loop,48
+S28,DATA-1302,Production Engineering,Architecture Reviewer,Requirements decision,49
+S29,DATA-1313,Production Engineering,Platform Engineer,SLO and error-budget decision,50
+S30,DATA-1324,Production Engineering,Security Reviewer,Authorization boundary,51
+S31,DATA-1335,Production Engineering,Platform Engineer,Capacity and cost decision,52
+S32,DATA-1346,Production Engineering,Incident Commander,Containment and recovery,53
+S33,DATA-1357,Production Engineering,Architecture Reviewer,Production approval review,54

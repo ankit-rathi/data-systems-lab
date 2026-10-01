@@ -1,0 +1,5 @@
+{
+  "ticket": "DATA-1357: review the end-to-end Acme data + AI platform before production expansion.",
+  "defect": "The design is technically plausible but its failure boundaries, ownership, evidence and trade-offs are not yet explicit.",
+  "service": "acme-commerce"
+}

@@ -1,0 +1,5 @@
+payment_id,order_id,customer_id,paid_at,status,amount
+P9001,O1001,C001,2026-09-29T09:03:00Z,settled,100
+P9002,O1002,C001,2026-09-29T10:03:00Z,settled,200
+P9003,O1003,C002,2026-09-29T11:03:00Z,settled,300
+P9004,O1004,C003,2026-09-29T12:03:00Z,settled,400

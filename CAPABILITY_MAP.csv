@@ -1,0 +1,13 @@
+capability_id,capability,notebook_range,workstream,primary_roles,proof_standard
+C01,System Foundations,00-04,Foundation,Data Engineer|Analytics Engineer,Explain the mechanism and reproduce it with a deterministic experiment.
+C02,Data Access Querying & Modeling,05-10,Revenue Data Platform,Data Engineer|Analytics Engineer,Translate a business question into correct data access and defend the model/query behavior.
+C03,Correctness Contracts & Idempotency,11-15,Revenue Data Platform,Data Engineer|Platform Engineer,Detect a correctness failure, prove the boundary, and add a regression control.
+C04,Lineage Orchestration & Recovery,16-18,Revenue Data Platform,Data Engineer|Platform Engineer|Incident Commander,Trace a failure through a workflow and design safe rerun or recovery behavior.
+C05,Storage Consistency & Distributed Systems,19-24,Distributed Data Platform,Data Engineer|Platform Engineer|Architect,Explain a distributed trade-off, reproduce a failure mode, and defend the consistency choice.
+C06,Streaming Lakehouse & Scale,25-30,Distributed Data Platform,Data Engineer|Platform Engineer,Measure a scale bottleneck and choose a bounded mitigation with explicit trade-offs.
+C07,ML Reliability,31-36,ML Platform,ML Engineer|Data Engineer,Separate offline signal from production behavior and define validation, freshness, drift, or rollback controls.
+C08,LLM Systems,37-42,AI Support Platform,AI Engineer|ML Engineer,Build or inspect a grounded AI mechanism, measure failure modes, and constrain unsafe behavior.
+C09,AI Data Systems,43-48,Agentic Data Platform,AI Engineer|Data Engineer|Platform Engineer,Turn AI output into a verifiable data-system decision with evidence, confidence, and escalation.
+C10,Agent-Native Engineering,49-50,Production Engineering,AI Engineer|Platform Engineer|Reviewer,Specify bounded agent work, verify implementation evidence, and enforce reliability objectives.
+C11,Security Cost Incident & Recovery,51-53,Production Engineering,Security Reviewer|Incident Commander|Architect,Make a production decision under security, cost, capacity, or incident constraints and document the blast radius.
+C12,Architecture Defense,54,Production Engineering,Architecture Reviewer|Architect,Defend a complete system from requirements through failure, recovery, governance, and evidence.

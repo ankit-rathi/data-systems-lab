@@ -1,0 +1,32 @@
+name: Repository Quality
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Build Pages source
+        run: python tools/build_site.py
+      - name: Repository validation
+        run: python tools/validate_repo.py
+      - name: Content quality gate
+        run: python tools/quality_check.py
+      - name: Curriculum graph validation
+        run: python tools/validate_graph.py
+      - name: Link and release-integrity validation
+        run: python tools/validate_links.py
+      - name: Apprenticeship scenario tests
+        env:
+          SCENARIO_TEST_WORKERS: '2'
+          SCENARIO_TIMEOUT_SECONDS: '15'
+        run: python tools/run_scenarios.py

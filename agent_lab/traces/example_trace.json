@@ -1,0 +1,8 @@
+{
+  "goal": "Investigate supplier schema drift without changing production state.",
+  "context": ["schema_drift.json", "DATA-1051"],
+  "proposal": "Inspect the payload contract and propose a compatibility normalization.",
+  "verification": ["fixture comparison", "regression test", "independent review"],
+  "human_approval": false,
+  "decision": "revise"
+}

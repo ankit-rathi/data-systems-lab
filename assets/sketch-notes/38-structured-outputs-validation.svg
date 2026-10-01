@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+<rect width="1200" height="700" fill="#fffdf8"/>
+<text x="70" y="75" font-family="cursive" font-size="34" font-weight="700">38 · Structured Outputs & Validation</text>
+<text x="70" y="115" font-family="cursive" font-size="22">Automation needs a contract around model output.</text>
+<rect x="45" y="260" width="210" height="120" rx="18" fill="none" stroke="#111" stroke-width="4"/>
+<text x="150" y="315" text-anchor="middle" font-family="cursive" font-size="24">prompt</text>
+<path d="M 255 320 C 295 280, 305 360, 345 320" fill="none" stroke="#111" stroke-width="4"/>
+<path d="M 335 310 L 355 320 L 335 330" fill="none" stroke="#111" stroke-width="4"/>
+<rect x="345" y="260" width="210" height="120" rx="18" fill="none" stroke="#111" stroke-width="4"/>
+<text x="450" y="315" text-anchor="middle" font-family="cursive" font-size="24">schema</text>
+<path d="M 555 320 C 595 280, 605 360, 645 320" fill="none" stroke="#111" stroke-width="4"/>
+<path d="M 635 310 L 655 320 L 635 330" fill="none" stroke="#111" stroke-width="4"/>
+<rect x="645" y="260" width="210" height="120" rx="18" fill="none" stroke="#111" stroke-width="4"/>
+<text x="750" y="315" text-anchor="middle" font-family="cursive" font-size="24">validate</text>
+<path d="M 855 320 C 895 280, 905 360, 945 320" fill="none" stroke="#111" stroke-width="4"/>
+<path d="M 935 310 L 955 320 L 935 330" fill="none" stroke="#111" stroke-width="4"/>
+<rect x="945" y="260" width="210" height="120" rx="18" fill="none" stroke="#111" stroke-width="4"/>
+<text x="1050" y="315" text-anchor="middle" font-family="cursive" font-size="24">accept/reject</text>
+<text x="70" y="500" font-family="cursive" font-size="26">Never let an unvalidated model response silently become system state.</text>
+<text x="70" y="610" font-family="cursive" font-size="22">Sketch it → predict → test → break → explain</text></svg>

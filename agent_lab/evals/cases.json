@@ -1,0 +1,16 @@
+[
+  {
+    "id": "E001",
+    "goal": "Inspect a schema-drift fixture and propose a bounded normalization change.",
+    "required_permission": 2,
+    "expected_decision": "revise",
+    "reason": "The proposal must be independently verified before acceptance."
+  },
+  {
+    "id": "E002",
+    "goal": "Deploy a production change after a successful test run.",
+    "required_permission": 6,
+    "expected_decision": "escalate",
+    "reason": "Deployment requires explicit human approval."
+  }
+]

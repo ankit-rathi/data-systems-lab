@@ -1,0 +1,5 @@
+{
+  "ticket": "DATA-1313: checkout support is asking for a reliability target and a recovery plan for a dependency that occasionally fails.",
+  "defect": "The team is discussing availability qualitatively and has no agreed budget for failure or recovery.",
+  "service": "acme-commerce"
+}

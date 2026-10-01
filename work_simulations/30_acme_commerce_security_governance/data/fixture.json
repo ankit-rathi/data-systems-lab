@@ -1,0 +1,5 @@
+{
+  "ticket": "DATA-1324: an AI workflow needs bounded access to customer and payment-adjacent data.",
+  "defect": "The current workflow treats an AI worker as a trusted application rather than a separately authorized actor.",
+  "service": "acme-commerce"
+}

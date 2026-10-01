@@ -1,0 +1,6 @@
+{
+  "supplier": "acme-supplier-7",
+  "before": {"total_amount": 125.0, "currency": "USD"},
+  "after": {"amount": 125.0, "currency": "USD"},
+  "expected_policy": "preserve raw evidence and normalize compatible field changes"
+}

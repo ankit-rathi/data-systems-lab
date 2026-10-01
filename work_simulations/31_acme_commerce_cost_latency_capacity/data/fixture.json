@@ -1,0 +1,5 @@
+{
+  "ticket": "DATA-1335: the AI support endpoint is meeting average latency but missing peak-hour targets while infrastructure cost is rising.",
+  "defect": "Average latency hides the tail; a larger compute allocation may improve latency but consume the budget.",
+  "service": "acme-commerce"
+}
